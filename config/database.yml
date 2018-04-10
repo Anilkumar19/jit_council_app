@@ -1,0 +1,22 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: council_lat_dev   #myridz_test_volkswagen_bangalore
+  pool: 5
+  username:
+  password:
+  # host: 136.243.145.19
+  # port: 5432
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: jit_council_production
+  pool: 5
+  username: 
+  password: 
